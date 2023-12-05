@@ -1,0 +1,28 @@
+.rp{
+    width: 100%;max-width: 1024px;display: flex;justify-content: space-between;gap: 20px;
+    
+}
+.rpItems{
+    flex: 1;gap: 10px;display: flex;flex-direction: column;
+}
+.rpImg{
+    width: 100%;object-fit: cover;height: 250px;
+}
+.rpName{
+    font-weight: bold;
+}
+.rpCity{
+    font-weight: 300;
+
+}
+.rpPrice{
+    font-weight: 500;
+
+}
+.rpRating>button{
+ background-color: #003580;color: white;border: none;padding: 3px;font-weight: bold;margin-right: 10px;
+
+}
+.fbRating>span{
+    font-size: 14px;
+}

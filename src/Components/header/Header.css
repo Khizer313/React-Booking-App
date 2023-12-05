@@ -1,0 +1,68 @@
+.header{
+    background-color: #003580;display: flex;justify-content: center;color: white;
+    position: relative;
+}
+.headerContainer{
+    width: 100%;max-width: 1024px;margin: 20px 0px 100px 0px;
+}
+/*------ if user is on list component ------*/
+.listMode{
+    margin: 20px 0px 0px 0px;
+}
+.headerList{
+    display: flex;gap: 40px;margin-bottom: 50px;
+}
+.headerListItems{
+    display: flex;gap: 10px;align-items: center;
+}
+.headerListItems.active{
+ border: 1px solid white;border-radius: 20px;padding: 10px;
+}
+.headerDesc{
+    margin: 24px opx;
+}
+.headerBtn{
+    background-color: #0071c2;color: white;font-weight: 500;border: none;
+    cursor: pointer;padding: 10px;
+}
+.headerSearch{
+    height: 30px;background-color: white;display: flex;align-items: center;justify-content: space-around;
+    border: 3px solid #febb02;border-radius: 5px;padding: 10px 0px;position: absolute;bottom: -25px;
+    width: 100%;max-width: 1024px;
+
+}
+.headerIcon{
+    color: lightgray;
+}
+.headerSearchItems{
+    display: flex;align-items: center;gap: 10px;
+}
+.headerSearchInput{
+    border: none;outline: none;
+}
+.headerSearchText{
+   color: lightgray;cursor: pointer;
+
+}
+.date{
+    position: absolute;top: 50px;z-index: 3;
+}
+.options{
+    position: absolute;top: 50px;background-color: white;color: gray;border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);z-index: 3;
+}
+.optionItems{
+    display: flex;justify-content: space-between;margin: 10px;
+}
+.optionCounter{
+    display: flex;align-items: center;gap: 10px;color: black;font-size: 12px;
+}
+.optionCounterButton{
+    width: 30px;height: 30px;border: 1px solid #0071c2;color: #0071c2;cursor: pointer;background-color: white;
+    
+}
+.optionCounterButton:disabled{
+cursor: not-allowed;
+
+}
